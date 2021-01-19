@@ -1,0 +1,22 @@
+import * as dotenv from 'dotenv'
+dotenv.config()
+
+const PORT = process.env.PORT
+const DB_HOST = process.env.DB_HOST
+const DB_PORT = process.env.DB_PORT
+const DB_USER = process.env.DB_USER
+const DB_PASSWORD = process.env.DB_PASSWORD
+const DB_DATABASE = process.env.DB_DATABASE
+const DB_SSL = process.env.DB_SSL
+const NODE_ENV = process.env.NODE_ENV
+
+export default {
+    PORT,
+    DB_HOST,
+    DB_PORT,
+    DB_USER,
+    DB_PASSWORD,
+    DB_DATABASE,
+    DB_SSL,
+    NODE_ENV
+}
